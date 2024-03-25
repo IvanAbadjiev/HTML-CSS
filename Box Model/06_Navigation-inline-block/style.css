@@ -1,0 +1,24 @@
+header {
+  font-family: Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  margin-right: 50px;
+}
+h1,
+nav,
+ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li {
+  margin-right: 15px;
+  color: green;
+}
+
+header,
+main {
+  margin: 50px;
+}

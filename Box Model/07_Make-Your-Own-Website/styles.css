@@ -1,0 +1,19 @@
+/* TODO: style the html */
+
+div {
+  display: inline-block;
+  background-color: #0a2c48;
+  color: white;
+  padding: 25px 30px;
+  width: 300px;
+  height: 100px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+div > * {
+  vertical-align: middle;
+}
+div:hover {
+  background-color: #2a4c68;
+}

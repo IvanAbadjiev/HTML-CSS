@@ -1,0 +1,13 @@
+tr,
+th,
+td,
+tr,
+tbody,
+thead {
+  border: 1px solid black;
+  padding: 4px 12px;
+}
+
+th {
+  background: aqua;
+}

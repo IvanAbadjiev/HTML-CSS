@@ -1,0 +1,33 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+body {
+  background: rgb(251, 251, 251);
+}
+button {
+  background: transparent;
+}
+
+button,
+a {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 15px;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-left: 2px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fill {
+  background: rgb(51, 51, 51);
+  color: white;
+}
+
+.hover:hover {
+  background: rgb(0, 102, 0);
+}
+.hover.white:hover {
+  background: rgb(251, 251, 251);
+}

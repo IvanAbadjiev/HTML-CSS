@@ -1,0 +1,126 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+html {
+  font-family: "Kode Mono", monospace;
+}
+body {
+  background-color: #c2bdba;
+}
+
+.main {
+  background-color: #25343d;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.main .top-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main .top-btn-box .btn {
+  padding: 18px 120px;
+  border: none;
+}
+
+.main .top-btn-box .green {
+  background-color: #1ab088;
+  color: white;
+}
+.main .top-btn-box .grey {
+  background-color: #435359;
+  color: #9fb3b0;
+}
+.main .top-btn-box .hover:hover {
+  background-color: #179976;
+  color: white;
+}
+.main .header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 30px;
+}
+.main .header .title {
+  font-weight: lighter;
+}
+
+.main .form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .form-box {
+  margin: 24px;
+}
+.main .form-box .name-box input {
+  width: 300px;
+}
+
+.main .form-box .fullSize-box input {
+  width: 610px;
+}
+input {
+  background-color: transparent;
+  border: 1px solid #9fb3b0;
+  padding: 8px;
+  margin-bottom: 36px;
+}
+input::placeholder {
+  color: #91999e;
+  font-size: 22px;
+  text-align: start;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .start {
+  background-color: #1ab088;
+  color: white;
+  border: none;
+  font-size: 36px;
+  padding: 12px 190px;
+  margin-bottom: 48px;
+}
+
+input::placeholder {
+  color: #91999e;
+}
+
+form {
+  position: relative;
+}
+
+.star {
+  color: #1ab088;
+  position: absolute;
+  font-size: 30px;
+  left: 180px;
+  top: -5px;
+}
+
+.name-box form:nth-child(2) .star:nth-child(2) {
+  left: 130px;
+}
+.name-box form .star:nth-child(2) {
+  left: 140px;
+}
+
+.name-box {
+  display: flex;
+  gap: 12px;
+}
+
+.fullSize-box form:nth-child(2) .star {
+  left: 195px;
+}

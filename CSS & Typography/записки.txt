@@ -1,0 +1,13 @@
+https://css-tricks.com/specifics-on-css-specificity/
+
+serif остри шрифтове 
+sans-serif  по меки
+
+em  взема размера на шрифта на своя parent  и го умножава по стойноста му
+
+rem прави същото но взема базовия шрифт на цялата страница на html елемента
+
+fount-weigth  дебелина на шрифта 
+
+/* font-size/line height font-family */
+font: 16px/2 "Fira Sans", sans-serif;

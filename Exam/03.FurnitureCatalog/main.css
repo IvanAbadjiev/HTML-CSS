@@ -1,0 +1,252 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+}
+
+.header {
+  background-image: url(/03.FurnitureCatalog/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+}
+
+.header .navigation {
+  display: flex;
+  padding-top: 50px;
+}
+
+.header .logo {
+  width: 110px;
+  height: 110px;
+  margin-right: auto;
+  margin-left: 300px;
+}
+
+.header .navigation .nav .list {
+  display: flex;
+  gap: 24px;
+  margin-right: 300px;
+  padding-top: 28px;
+  font-size: 20px;
+}
+
+.header .navigation .nav .list .item {
+  font-weight: bold;
+  z-index: 10;
+}
+
+header :after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.03);
+  height: 80vh;
+  z-index: 0;
+}
+.header .hero {
+  position: relative;
+  z-index: 10;
+}
+.header .navigation {
+  position: relative;
+  z-index: 10;
+}
+
+.header .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 31px;
+  padding-top: 120px;
+}
+.header .hero .title {
+  margin-bottom: 12px;
+}
+.header .hero .desc {
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.header .hero .btn {
+  background-color: #e6eef0;
+  color: #696666;
+  margin-top: 40px;
+  font-size: 20px;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 900;
+}
+
+/* Blue Section */
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  background-color: #61adc2;
+  position: relative;
+  z-index: 10;
+}
+
+.catalog .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+}
+
+.catalog .cards .card {
+  display: flex;
+  width: 600px;
+  height: 300px;
+
+  box-shadow: 3px 10px 42px 1px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 3px 10px 42px 1px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 3px 10px 42px 1px rgba(0, 0, 0, 0.64);
+  border-right: 10px solid transparent;
+}
+
+.catalog .cards .card .text {
+  width: 60%;
+  padding: 24px;
+  background-color: white;
+}
+.catalog .cards .card .text .title {
+  text-align: center;
+  font-size: 18px;
+}
+.catalog .cards .card .text .desc {
+  font-size: 16px;
+  text-align: start;
+  width: 80%;
+}
+.catalog .cards .card:nth-child(2) .text .desc {
+  padding-left: 26px;
+}
+.catalog .cards .card .title {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.catalog .cards .card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.catalog {
+  text-align: center;
+}
+.catalog .title {
+  padding-top: 48px;
+}
+
+.catalog .desc {
+  padding-bottom: 48px;
+}
+
+/* furniture */
+
+.furniture {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+.furniture .card {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #67686b;
+}
+
+.furniture .card img {
+  width: 150px;
+  height: 150px;
+}
+
+.furniture .card .desc {
+  font-size: 20px;
+}
+.furniture .card .title {
+  margin-bottom: 18px;
+}
+
+/* catalog2 */
+
+.catalog2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #61adc2;
+}
+.catalog2 {
+  text-align: center;
+}
+
+.catalog2 .title {
+  padding-top: 48px;
+}
+
+.catalog2 .desc {
+  padding-bottom: 48px;
+  font-size: 20px;
+}
+
+.catalog2 .photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.catalog2 .photos .photo img {
+  width: 450px;
+  height: 300px;
+  box-shadow: 1px 8px 88px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 8px 88px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 8px 88px 0px rgba(0, 0, 0, 0.75);
+}
+
+.catalog2 .photos {
+  margin-bottom: 48px;
+}
+
+/* aboutus */
+
+.aboutus {
+  padding: 48px 0;
+  text-align: center;
+  color: #67686b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus .subtitle {
+  margin-bottom: 48px;
+}
+
+.aboutus .desc {
+  width: 1300px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e343d;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 18px;
+}

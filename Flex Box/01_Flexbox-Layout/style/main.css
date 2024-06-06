@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+body {
+  display: flex;
+  background-color: #eee;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 5px;
+}
+.header,
+.main,
+.aside,
+.footer {
+  border: 2px solid black;
+}
+.header,
+.footer {
+  flex-basis: 99%;
+}
+.main {
+  flex-basis: 70%;
+}
+.aside {
+  flex-basis: 29%;
+}

@@ -1,0 +1,21 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+.container {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 15vw;
+  height: 10rem;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.container span {
+  border: 1px solid black;
+  padding: 16px 40px;
+}
+.container span:nth-child(1) {
+  order: -5;
+}

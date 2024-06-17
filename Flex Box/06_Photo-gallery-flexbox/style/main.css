@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+body {
+  margin: 80px 250px;
+}
+
+body,
+ul,
+li {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+body ul {
+  justify-content: space-between;
+}
+li {
+  border: 10px solid black;
+  padding: 16px 8px;
+}
+
+li {
+  align-items: center;
+}

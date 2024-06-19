@@ -1,0 +1,16 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: rgb(255, 255, 255);
+  height: 130px;
+  padding: 24px;
+  width: 500px;
+}

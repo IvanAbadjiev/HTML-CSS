@@ -1,0 +1,265 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+/* 
+bg - #070e27
+praymery - #0059f7
+bl but - #162044
+icon gray - #7e8bb6
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #070e27;
+  color: #fff;
+}
+p {
+  color: #7e8bb6;
+}
+
+.header {
+  padding: 16px 64px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #7e8bb6;
+  position: sticky;
+  top: 0px;
+  background-color: #070e27;
+}
+
+.header .navigation {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.header .nav-list {
+  display: flex;
+  gap: 12px;
+}
+
+.header .nav-list a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #162044;
+  color: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.btn-prymary {
+  background-color: #0059f7;
+}
+
+/* HERO */
+
+#hero {
+  padding: 70px 64px;
+}
+
+#hero .welcome {
+  max-width: 900px;
+  margin: 0 auto 48px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+#hero .welcome > * {
+  width: 45%;
+}
+
+#hero .welcome .title {
+  font-size: 48px;
+  line-height: 1.2;
+}
+#hero .welcome .info {
+  margin-bottom: 12px;
+}
+
+#hero .hero-img {
+  margin: 0 auto 48px auto;
+}
+
+#hero .partners {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+/* HOW section */
+
+#how {
+  padding: 70px 64px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 48px;
+}
+
+#how .row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto 48px auto;
+}
+
+#how .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#how .row:last-child {
+  margin-bottom: 0;
+}
+
+#how img {
+  width: 60%;
+}
+#how .row .title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+#how .row .desc {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  #hero .welcome {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  #hero .welcome .title {
+    width: 100%;
+  }
+
+  #hero .welcome > div {
+    width: 60%;
+  }
+
+  /* HOW */
+
+  #how .row {
+    gap: 18px;
+    margin: 0 auto 36px auto;
+  }
+
+  #how .row img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .navigation {
+    display: none;
+  }
+  .header h2 {
+    margin-right: auto;
+  }
+
+  #hero .welcome > div {
+    width: 80%;
+  }
+
+  #how .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #how .row img {
+    width: 800%;
+  }
+
+  #how .row:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
+/* pricing + mobile first */
+
+#pricing {
+  padding: 70px 64px;
+}
+#pricing .plans .plan {
+  padding: 12px 18px;
+  border-radius: 6px;
+  background-color: #162044;
+}
+
+#pricing .plans .plan .title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #7e8bb6;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #7e8bb6;
+  margin-bottom: 36px;
+}
+#pricing .plans .plan .title .price {
+  display: block;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#pricing .plans .plan .title .price .dollar-sign {
+  color: #7e8bb6;
+}
+
+#pricing .plans .plan .features {
+  color: #7e8bb6;
+  margin: 0 12px 36px 12px;
+}
+
+#pricing .plans .plan .features .feat:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+#pricing .plans .plan:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 560px) {
+  #pricing .plans {
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #pricing .plans .plan:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #pricing .plans {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+  }
+
+  #pricing .plans .plan.promo {
+    margin-bottom: 36px;
+  }
+}

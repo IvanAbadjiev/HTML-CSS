@@ -1,4 +1,21 @@
-# HTML-CSS
+# HTML & CSS - January 2024
 
+## Overview
+The HTML & CSS course aims to provide foundational knowledge of web technologies, focusing on HTML5 and CSS3. Students will gain practical skills in creating and styling web content, understanding web browsers, and using development tools.
 
-The purpose of the "HTML & CSS" course is to provide basic knowledge of web technologies and, more specifically, familiarity with HTML5 and CSS3. Basic knowledge of web development, web browsers, HTML/CSS/DOM development tools is acquired and practical skills are developed using the Web Content Description Language (HTML) and the Web Content Styling Language (CSS). Basic HTML tags, paragraphs, lists, tables, forms, controls, and semantic HTML tags are studied. Emphasis is on basic CSS selectors and styles, working with classes, presentation rules, positioning and layout rules in CSS. The latest developments in the HTML5 and CSS3 standards are covered. The course emphasizes hands-on HTML and CSS exercises that involve you in real-world web design projects, implementing site fragments, and creating complete modern websites with a good look, modern structure, and mobile support.
+## Course Content
+- **Introduction to HTML & CSS**: Learn the basics of web development.
+- **Typography in CSS**: Style text content effectively.
+- **Box Model & Position**: Understand layout fundamentals.
+- **CSS Layout - Flexbox**: Build flexible web layouts.
+- **Responsive Web Design**: Create mobile-friendly designs.
+- **Working with Forms**: Manage user input and data.
+
+## Skills Acquired
+- Building web pages with HTML
+- Styling web pages with CSS
+- Creating responsive web designs
+- Implementing modern web layouts
+- Developing static web pages
+  
+![HTML   CSS - January 2024 - Certificate (1)](https://github.com/IvanAbadzhiev01/HTML-CSS/assets/107812744/19574a90-1953-4473-b01e-84d931553616)

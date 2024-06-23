@@ -1,0 +1,55 @@
+P -  text
+footer - най-отдолущ
+
+header - > headings logo search form
+
+nav - дефинира секция която съдържа линкове -> ul>li>a
+
+main - основната част - не тряба да има повече от еидн на станица
+
+aside - навигация в ляво или дясно
+
+section - секция на нашия сайт най-често се слаха h1-2-3-4-5-6
+
+
+article - reusseble 
+
+figure
+
+details
+
+summary
+
+time
+
+address
+
+
+form
+
+lable - текста преди всеки инпут като for елемент може да сложим id то на input елемента за да работят заедно
+
+input - type = text, number, password, email, search, checkbox, radio range submit, button,  file, url, tel валидираме дали полето е пълнп с 
+required="ture"
+placeholder -> блед шрифт на полето
+
+name обединява група от инпут и лабел полета спедиално за радио бутон
+
+fieldset 
+legend
+
+ако имаме button във form елемент той ще бъде от тип submin  извън него ще си бъде обикновен бутон
+
+
+table -  тяло на таблицата с border='1';  се стилизира 
+
+tr - row
+td - cow
+
+th - table header
+
+theat - като header
+
+tfoot - като footer 
+
+атрибути colspan - rowspan по колко полета да заемат

@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+.grid__container {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(4, 150px);
+  grid-template-areas:
+    "head head head head head head"
+    "side content content content content content"
+    "side content content content content content"
+    "foot foot foot foot foot foot";
+  margin: 16px;
+}
+
+header {
+  grid-area: head;
+}
+
+aside {
+  grid-area: side;
+}
+
+main {
+  grid-area: content;
+}
+.grid__container > * {
+  background-color: aqua;
+  padding: 16px;
+}
+footer {
+  grid-area: foot;
+}

@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+body {
+  margin: 64px;
+  background-color: lightgray;
+}
+
+header {
+  font: 1em/1.2 "Georgia", "serif";
+}
+
+header > h1 {
+  display: inline-block;
+}
+.main__nav {
+  display: inline-block;
+  float: right;
+}
+
+.main__nav ul li {
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+/* .main__nav ul li {
+  display: inline-block;
+} */
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+.main__nav {
+  vertical-align: top;
+}
+hr {
+  margin: 0;
+  margin-bottom: 20px;
+}
+article header {
+  margin-bottom: 20px;
+}
+
+aside {
+  float: right;
+}
+img.photo__rigth {
+  float: right;
+  padding: 10px;
+  margin: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
+p {
+  margin-bottom: 20px;
+}
+.small {
+  display: inline-block;
+  width: 500px;
+  padding: 10px;
+  border-right: 2px solid black;
+}
+blockquote {
+  display: inline-block;
+  width: 450px;
+  vertical-align: top;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+.author {
+  text-align: end;
+  margin-right: 50px;
+}

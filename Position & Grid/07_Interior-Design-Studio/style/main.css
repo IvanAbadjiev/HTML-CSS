@@ -1,0 +1,14 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+/* body {
+  background-image: url(/07_Interior-Design-Studio/livingroom.jpg);
+  background-repeat: no-repeat;
+} */
+h1 {
+  position: absolute;
+  color: antiquewhite;
+  text-shadow: 1px 1px 20px black;
+  top: 60px;
+  left: 170px;
+}

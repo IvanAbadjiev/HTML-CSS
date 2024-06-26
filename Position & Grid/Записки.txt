@@ -1,0 +1,115 @@
+
+
+
+Layout - това е най-основното подреждане на нашите елементи
+
+
+
+---GRID---
+
+Display: grid  
+
+Display: inline-grid
+
+grid-temlate-colums: - указва колоната колко трябва да е широка колкото броя колони искаме толкова стойности пишем
+ако са еднакви използваме Repeat(Брой колони,  размер)
+
+
+gap/row-gap/colum-gap
+Пространство между колони и редове 
+
+нова мерна единица при грид fr фракшън
+за да калкулира по правилно зададените стойносто 
+
+grid-temlate-rows същото само че за редовете
+
+
+Grid-template-areas
+
+Пример
+.grid__container {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(6, 100px);
+  grid-template-areas:
+    "head head head head head head"
+    "side content content content content content"
+    "side content content content content content"
+    "side content content content content content"
+    "side content content content content content"
+    "foot foot foot foot foot foot";
+}
+
+header {
+  grid-area: head;
+}
+
+aside {
+  grid-area: side;
+}
+
+main {
+  grid-area: content;
+}
+.grid__container > * {
+  background-color: aqua;
+}
+footer {
+  grid-area: foot;
+}
+
+. e за празно място
+
+С числа
+Ако писането на grid-column и grid-row е прекалено за вас, отново може да използвате съкратено свойство. grid-area приема четири стойности разделени с наклонена черта: grid-row-start, grid-column-start, grid-row-end, последвани от grid-column-end.
+
+Например grid-area: 1 / 1 / 3 / 6;.
+
+
+
+Position 
+
+Има 5 стойности  Static(няма възможност за позициониране с top left и т. н), relative(може да наместваме елемрнта но само визоално), absolute(позиционираме спрямо контейнера но за да стане трябва да сложим на контейнера relativ), fixed(излиза извън флола на страницата и винаги се позиционира спрямо HTML Елемнента и не мърда ), sticky
+
+top-bottom-left-rigth и стойност срещу тях - 20% или 20пх катоо пример наместват елемента 
+
+postition static, relative
+
+
+
+Когато искаме да разпунем един елемент по височина до края на нашия браузър
+ използваме
+ .hero {
+ 
+  height: 100vh;
+  width: 100vw;
+}
+
+центриране на текс в контеинер 
+
+.hero .hero__title {
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px;
+  line-height: 1;
+
+  transform: translate(-50%, -50%);
+}
+
+Когато искаме да направим овърлей да закъмним леко картината отзад
+
+CSS
+.designer-card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+}
